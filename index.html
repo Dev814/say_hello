@@ -22,10 +22,16 @@
        // I'm testing the alert function
        // alert("I'm annoying");
 
-       var username = "ALIYA";
-       var lastname = "SCRIBNER"
-       var password = "1234";
-       document.write("<h1>Hello " + username +  lastname + "</h1>");
+       var username = prompt("Enter your name, please!");
+
+       var treats = new Array("Cupcake", "Brownie", "Cookie");
+
+       if(username=="Jane") {
+            document.write("<h1>HELLO " + username +  " you get a " + treats[0] + "!!!</h1>");
+       } else {
+            document.write("HEY");
+       }
+
 
 
 
